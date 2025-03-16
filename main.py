@@ -29,7 +29,7 @@ os.environ["SSL_CERT_FILE"] = certifi.where()
 #get all the keys needed
 os.environ['OPENAI_API_KEY']=os.getenv("OPENAI_API_KEY")
 os.environ['GROQ_API_KEY']=os.getenv("GROQ_API_KEY")
-
+groq_api_key=os.getenv("GROQ_API_KEY")
 
 
 #instantiate the llm model
